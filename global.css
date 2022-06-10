@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+@font-face {
+	font-family: 'SCDream1';
+	src: url('./fonts/SCDream1.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'SCDream2';
+	src: url('./fonts/SCDream2.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'SCDream3';
+	src: url('./fonts/SCDream3.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'SCDream4';
+	src: url('./fonts/SCDream4.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'SCDream5';
+	src: url('./fonts/SCDream5.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'SCDream6';
+	src: url('./fonts/SCDream6.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'SCDream7';
+	src: url('./fonts/SCDream7.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'SCDream8';
+	src: url('./fonts/SCDream8.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'SCDream9';
+	src: url('./fonts/SCDream9.otf') format('opentype');
+}
+
+
+
+:root {
+	--blue-green: #56ac9a;
+	--rgba-blue-green: rgba(86, 172, 154, 0.7);
+
+	--cream: #f8f0de;
+	--rgba-cream: rgba(248, 240, 222, 0.7);
+
+	--grey: #707073;
+	--rgba-grey: rgba(112, 112, 115, 0.3);
+
+	--grey-for-shadow: rgba(112, 112, 115, 0.7);
+
+	--brown: #8e7f89;
+	--rgba-brown: rgba(142, 127, 137, 0.7);
+
+	--skyblue: #61a6ad;
+	--rgba-skyblue: rgba(97, 166, 173, 0.7);
+
+	--black: #3c3c3c;
+
+	--width: calc( 100vw - 100% );
+}
+
+html{
+	position: relative;
+	width: 100%;
+	overflow-x: hidden;
+	height: 100%;
+	font-size: 62.5%;
+}
+
+body {
+	height:100%;
+}
+html {
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
+::-webkit-scrollbar {
+	display: none;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.grid {
+	background-image: linear-gradient(to top, var(--rgba-grey) 1px, transparent 1px),
+		linear-gradient(to left, var(--rgba-grey) 1px , transparent 1px);
+	background-size: 
+		6.25vw 10vh,
+		6.25vw 10vh;
+}
+
+@media only screen and (max-width: 1200px) {
+	.grid {
+		background-image: linear-gradient(to top, var(--rgba-grey) 1px, transparent 1px),
+			linear-gradient(to left, var(--rgba-grey) 1px , transparent 1px);
+		background-size: 
+			10vw 10vh,
+			10vw 10vh;
+	}
+}
+
+.bluegreen {
+	color: var(--blue-green);
+}
+
+.cream {
+	color: var(--cream);
+}
+
+.grey {
+	color: var(--grey);
+}
+
+.brown {
+	color: var(--brown);
+}
+
+.skyblue {
+	color: var(--skyblue);
+}
+
+.black {
+	color: var(--black);
+}
+
+.white {
+	color: white;
+}
+
+.sc1 {
+	font-family: "SCDream1";
+}
+.sc2 {
+	font-family: "SCDream2";
+}
+.sc3 {
+	font-family: "SCDream3";
+}
+.sc4 {
+	font-family: "SCDream4";
+}
+.sc5 {
+	font-family: "SCDream5";
+}
+.sc6 {
+	font-family: "SCDream6";
+}
+.sc7 {
+	font-family: "SCDream7";
+}
+.sc8 {
+	font-family: "SCDream8";
+}
+.sc9 {
+	font-family: "SCDream9";
+}

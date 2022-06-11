@@ -70,6 +70,10 @@
 	--width: calc( 100vw - 100% );
 }
 
+#allWrapper {
+	overflow-x: hidden;
+}
+
 html{
 	position: relative;
 	width: 100%;
@@ -80,6 +84,7 @@ html{
 
 body {
 	height:100%;
+		
 }
 html {
 	-ms-overflow-style: none;
@@ -109,6 +114,12 @@ html {
 		background-size: 
 			10vw 10vh,
 			10vw 10vh;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	html {
+		overflow-x: hidden;
 	}
 }
 

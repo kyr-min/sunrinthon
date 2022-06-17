@@ -71,6 +71,7 @@
 }
 
 #allWrapper {
+	position:relative;
 	overflow-x: hidden;
 }
 
@@ -79,6 +80,11 @@ html{
 	width: 100%;
 	height: 100%;
 	font-size: 62.5%;
+}
+
+html,body {
+	position:relative;
+	overflow-x: hidden;
 }
 
 body {

@@ -72,23 +72,26 @@
 
 #allWrapper {
 	position:relative;
+	height: fit-content;
 	overflow-x: hidden;
 }
 
 html{
-	position: relative;
 	width: 100%;
 	height: 100%;
 	font-size: 62.5%;
-	
+	position:relative;
+	overflow: hidden;
 }
-body {
+
+html,body {
+	position:relative;
 	overflow-x: hidden;
 }
 
 body {
 	height:100%;
-		
+
 }
 html {
 	-ms-overflow-style: none;
